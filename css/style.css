@@ -6,6 +6,11 @@
 
 /* MAIN */
 
+body{
+    font-family: 'Mate SC', serif;
+
+}
+
 .product{
     height: 100vh;
     position: relative;
@@ -32,11 +37,39 @@ main div.product:last-child{
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    font-family: 'Mate SC', serif;
      
 }
 
  .content img {
     width: 100%;
+}
+
+.main-nav{
+    position: fixed;
+    top:20px;
+    right:20px; 
+    z-index:1; 
+}
+
+.main-nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    background-color: white;
+    border-radius: 50%;
+    height:30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor:pointer;
+    font-weight: 600;
+    box-shadow:1px 1px 1px rgba(0, 0, 0, .5); 
+    
+}
+.main-nav li a{
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+    
+    /* background-color: gray; */
+    
 }
 
