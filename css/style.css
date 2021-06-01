@@ -4,6 +4,39 @@
     padding: 0;
 }
 
+/* MAIN */
+
 .product{
     height: 100vh;
+    position: relative;
 }
+
+main div.product:first-child{
+    background-color: red;
+}
+
+main div.product:nth-child(2){
+    background-color: forestgreen;
+}
+main div.product:last-child{
+    background-color: goldenrod ;
+
+}
+
+ .content {
+    background-color: transparent;
+    width: 300px;
+    text-align: center;
+    color:yellow;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Mate SC', serif;
+     
+}
+
+ .content img {
+    width: 100%;
+}
+
