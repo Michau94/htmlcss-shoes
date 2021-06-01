@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* MAIN */
@@ -69,7 +70,8 @@ main div.product:last-child{
     text-decoration: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
     
-    /* background-color: gray; */
+    
     
 }
+
 
