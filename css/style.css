@@ -19,13 +19,16 @@ body{
 
 main div.product:first-child{
     background-color: red;
+    color:yellow;
 }
 
 main div.product:nth-child(2){
     background-color: forestgreen;
+    color: yellow;
 }
 main div.product:last-child{
-    background-color: goldenrod ;
+    background-color: goldenrod;
+    color: green;
 
 }
 
@@ -33,7 +36,6 @@ main div.product:last-child{
     background-color: transparent;
     width: 300px;
     text-align: center;
-    color:yellow;
     position: absolute;
     top:50%;
     left:50%;
